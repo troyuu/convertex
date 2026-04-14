@@ -24,7 +24,7 @@ app.use('/api', routes);
 if (process.env.NODE_ENV === 'production') {
   const clientDist = resolve(__dirname, '../../client/dist');
   app.use(express.static(clientDist));
-  app.get('*', (req, res) => {
+  app.get('/{*splat}', (req, res) => {
     res.sendFile(resolve(clientDist, 'index.html'));
   });
 }
