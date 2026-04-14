@@ -1,0 +1,18 @@
+node_modules/
+dist/
+build/
+.env
+*.log
+.DS_Store
+server/temp/*
+!server/temp/.gitkeep
+*.tgz
+coverage/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code
+.claude/
+CLAUDE.md

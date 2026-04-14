@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" shape-rendering="crispEdges">
+  <rect x="4" y="2" width="24" height="28" fill="#C0C0C0" />
+  <rect x="5" y="3" width="22" height="26" fill="#FFFFFF" />
+  <rect x="5" y="3" width="22" height="4" fill="#000080" />
+  <text x="16" y="6.5" text-anchor="middle" fill="#FFFFFF" font-size="3" font-family="monospace" font-weight="bold">CONVERTEX</text>
+  <rect x="8" y="10" width="16" height="2" fill="#008080" />
+  <rect x="8" y="14" width="12" height="2" fill="#008080" />
+  <rect x="8" y="18" width="16" height="2" fill="#008080" />
+  <rect x="8" y="22" width="8" height="2" fill="#008080" />
+  <polygon points="18,16 26,22 26,10" fill="#000080" opacity="0.3" />
+</svg>
