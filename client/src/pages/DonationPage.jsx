@@ -37,12 +37,11 @@ export default function DonationPage() {
               >
                 <span className="font-bold text-sm">GCash</span>
               </div>
-              <div className="bevel-sunken bg-white p-2 mx-auto" style={{ maxWidth: '220px' }}>
+              <div className="bevel-sunken bg-white p-3 mx-auto" style={{ maxWidth: '300px' }}>
                 <img
                   src={gcashQr}
                   alt="GCash QR Code"
                   className="w-full h-auto"
-                  style={{ imageRendering: 'auto' }}
                 />
               </div>
               <p className="text-xs text-retro-gray mt-2">
@@ -58,12 +57,11 @@ export default function DonationPage() {
               >
                 <span className="font-bold text-sm">Maya</span>
               </div>
-              <div className="bevel-sunken bg-white p-2 mx-auto" style={{ maxWidth: '220px' }}>
+              <div className="bevel-sunken bg-white p-3 mx-auto" style={{ maxWidth: '300px' }}>
                 <img
                   src={mayaQr}
                   alt="Maya QR Code"
                   className="w-full h-auto"
-                  style={{ imageRendering: 'auto' }}
                 />
               </div>
               <p className="text-xs text-retro-gray mt-2">
